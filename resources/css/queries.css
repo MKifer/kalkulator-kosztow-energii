@@ -1,0 +1,90 @@
+/* Big tablets to 1200 px (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+ /* OK */
+}
+
+/* Small tablet to big tablets from 768 to  1023 px */
+@media only screen and (max-width: 1023px) {
+  /* OK */
+    
+    .add__btn {
+        left: 90%;
+    }
+    
+    .new-text {
+    margin-left: 10%;
+    text-align: right;
+}
+
+    
+}
+
+/* Small phones to small tablets from 481 to 767 px */
+@media only screen and (max-width: 767px) {
+
+    .new-text {
+     text-align: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .new-value {
+        width: 100%;
+        padding: 8px 8px 8px 8px;
+    }
+    
+    .news-box {
+        height: 280px;
+        width: 55%;
+        margin-left: 50px;
+    }
+   
+    .new-box {
+        float: left;
+    }
+
+
+    .add_time,
+    .add_amount,
+    .add_power,
+    .add_desc {
+        color: #f7f0f0;
+        font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding-bottom: 1px;
+        width: 240px;
+        text-align: left;
+        display: inline-block;
+        font-size: 140%;
+    }
+    
+    .add__btn {
+        top: -190px;
+        left: 69%;
+        font-size: 100px;
+    }
+    
+    .dev {
+        margin-bottom: 10px;
+    }
+    
+    .name { width: 40%; }
+    .power { width: 11%; }
+    .time { width: 11%; }
+    .amount { width: 8%; }
+    .cost {width: 15%}
+    
+    .del__btn {
+        margin: auto;
+        padding: 5px 5px 5px 5px;
+        margin-left: 15px;
+        font-size: 35px;
+    }
+    
+    
+}
+/* Small phones from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    
+    
+}
