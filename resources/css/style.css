@@ -1,0 +1,358 @@
+/*
+Orange color: #cf6d17
+*/
+
+/* ------------------------------------------------------------------- */
+/* BASIC SETUP*/
+/* ------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    color: #ecf0f1;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300; 
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------------------------------------------- */
+/* REUSABLE COMPONENTS*/
+/* ------------------------------------------------------------------- */
+
+.row {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+/* -------------- HEADINGS -------------- */
+
+h1 {
+    font-weight: 300;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ecf0f1;
+    font-weight: 300;
+    margin: auto;
+    text-decoration: underline;
+}
+
+/* -------------- PARAGRAPHS -------------- */
+
+.text {
+    color: #ecf0f1;
+    font-size: 120%;
+}
+
+.price-kwh .text {
+    text-align: left;
+    float: left;
+}
+
+.currency {
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.total-text, .total-value {
+    display: inline-block;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.total-text {
+    margin-left: 15%;
+}
+
+.total-value {
+    float: right;
+    margin-right: 15%;
+}
+
+.new-text, new-value {
+    font-size: 110%;
+    color: #f7f0f0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.new-text {
+    margin-left: 15%;
+    text-align: right;
+}
+
+.new-value {
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+
+.yearly,
+.monthly,
+.daily {
+    color: rgb(46, 204, 113);
+    text-transform: none;
+    font-weight: 400;
+}
+
+
+
+
+
+/* -------------- ICONS -------------- */
+
+
+/* -------------- LINKS -------------- */
+
+
+
+/* -------------- BUTTONS -------------- */
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------------------- */
+
+
+
+header {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 1))),url(img/lines.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)),url(img/lines.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    overflow: auto; 
+}
+
+.intro-textbox {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+.price-kwh {
+    padding: 60px 10% 0 10%;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.totals-box {
+    margin: 10px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 160px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.total {
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.news-box {
+    background-color: rgba(46, 204, 113, 0.6);
+    height: 100px;
+    width: 80%;
+    margin: 15px auto 0 auto;
+    border-radius: 10px;
+    padding: 5px 0 105px 0;
+}
+
+.new-box {
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.list-box {
+    position: relative;
+    top: -60px;
+    left: auto;
+    
+    margin: auto;
+    width: 80%;
+    background-color: rgba(0, 0, 0,0.3);
+    height: auto;
+    border-radius: 10px;
+}
+
+/*  MAIN NAV */
+
+
+/*  MOBILE NAV */
+
+
+/*  STICKY NAV */
+
+
+/* ------------------------------------------------------------------- */
+/* TABLE, INPUTS etc */
+/* ------------------------------------------------------------------- */
+
+/* LIST OF DEVICES */
+.col-names {
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.col {
+    display: inline-block;
+    padding: 1px 5px 5px 5px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.device {
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+}
+
+.dev {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 216, 57, 0.5);
+    border-radius: 10px;
+}
+
+.name { width: 50%; }
+.power { width: 8%; }
+.time { width: 8%; }
+.amount { width: 6%; }
+.cost { width: 10%; }
+
+input {
+    font-family: Lato;
+}
+::-webkit-input-placeholder {
+  color: #c9c9c9;
+}
+
+input[name="input-pricekwh"] {
+    position: relative;
+    top: -2px;
+    
+    font-size: 120%;
+    background-color: transparent;
+    color: #e74c3c;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+}
+
+
+.add_time,
+.add_amount,
+.add_power,
+.add_desc {
+    color: #f7f0f0;
+    font-weight: 300;
+    background-color: transparent;
+    padding-bottom: 1px;
+    width: 100%;
+    text-align: center;
+    border:0px;
+    padding-left: 5px;
+
+}
+
+.add_desc {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------- */
+/* BUTTONS */
+/* ------------------------------------------------------------------- */
+
+.add__btn {
+    position: relative;
+    top: -85px;
+    left: 91%;
+    
+    font-size: 70px;
+    color: #2ecc71;
+    background: none;
+    border: none;
+
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+    z-index: 9999;
+}
+    
+.add__btn:active { transform: translateY(2px); }
+
+.add__btn:focus { outline: none; }
+
+
+
+.del__btn {
+    
+    font-size: 30px;
+    color: #e74c3c;
+    background: none;
+    border: none;
+
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 15px;
+}
+    
+.del__btn:active { transform: translateY(2px); }
+
+.del__btn:focus { outline: none; }
+
+
+/* ------------------------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------- */
+/* ANIMATIONS */
+/* ------------------------------------------------------------------- */
+
+
