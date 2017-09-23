@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="Codzienna dostawa smacznych i zdrowych posiłków. Już nie musisz szukać czasu na przygotowanie sobie posiłków do pracy. Jesteśmy tu dla Ciebie.">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        
+       <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/favicons/manifest.json">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <title>Energy Calc</title>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="intro-textbox">
+                    <h1></h1>
+                </div>
+                <div class="price-kwh">
+                        <div class="text">
+                            Podaj obowiązującą Cię cenę za kWh:
+                        </div>
+                        <input type="text" name="input-pricekwh" class="input-pricekwh" value="0.52">
+                        <div class="currency">
+                            <div class="text">
+                                PLN
+                            </div>
+                        </div>
+                </div>
+                
+                <div class="totals-box">
+                    <h2>całość :</h2>
+                    <div class="total">
+                        <div class="total-text text">Dziennie:</div>
+                        <div class="daily total-value text">0 zł</div>
+                    </div>
+                    <div class="total">
+                        <div class="total-text text">Miesięcznie:</div>
+                        <div class="monthly total-value text">0 zł</div>
+                    </div>
+                    <div class="total">
+                        <div class="total-text text">Rocznie</div>
+                        <div class="yearly total-value text">0 zł</div>
+                    </div>
+                    
+                </div>
+                <div class="news-box">
+                    <div class="new-box">
+                        <div class="new-text">Nazwa:</div>
+                        <div class="new-value">
+                            <input type="text" class="add_desc" placeholder="np. Żarówka">
+                        </div>
+                    </div>
+                    <div class="new-box">
+                        <div class="new-text">Moc [W]:
+                        </div>
+                        <div class="new-value">
+                            <input type="number" class="add_power" placeholder="np. 6">
+                        </div>
+                    </div>
+                    <div class="new-box">
+                        <div class="new-text">Dzienny czas pracy(godz.):</div>
+                        <div class="new-value">
+                            <input type="number" class="add_time" placeholder="np. 3">
+                        </div>
+                    </div>
+                    <div class="new-box">
+                        <div class="new-text">Ile sztuk:</div>
+                        <div class="new-value">
+                            <input type="number" class="add_amount" placeholder="np. 1">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="add__btn"><i class="ion-plus-circled"></i></button>
+
+            </div>
+        </header>
+        
+        <script src="resources/js/app.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="resources/js/introscript.js" type="text/javascript"></script>
+        <script src="vendors/js/typed.js" type="text/javascript"></script>
+        
+    </body>
+    
+</html>
